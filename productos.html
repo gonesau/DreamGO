@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DreamGo | Productos</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="bg-light shadow-sm py-3 sticky-top">
+    <div class="container d-flex justify-content-between align-items-center">
+      <a href="index.html"><img src="img/logo.png" alt="DreamGo Logo" height="50"></a>
+      <nav>
+        <ul class="nav">
+          <li class="nav-item"><a class="nav-link nav-anim" href="index.html#nosotros">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link nav-anim" href="index.html#testimonios">Testimonios</a></li>
+          <li class="nav-item"><a class="nav-link nav-anim" href="index.html#contacto">Contáctanos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="py-5 text-center bg-white">
+    <div class="container" data-aos="fade-up">
+      <h1 class="mb-4">Nuestros Productos</h1>
+      <p class="lead">Comodidad, estilo y protección en movimiento. Elige la versión que se adapta a ti.</p>
+    </div>
+  </section>
+
+  <section class="py-5 bg-light">
+    <div class="container" data-aos="fade-up">
+      <div class="row g-4 mb-5">
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm">
+            <img src="img/producto-dreamgo.jpg" alt="DreamGo" class="card-img-top img-fluid" style="aspect-ratio: 4/3; object-fit: cover;">
+            <div class="card-body">
+              <h4 class="card-title">DreamGo</h4>
+              <p class="card-text">DreamGo es una funda acolchada ideal para proteger tu laptop mientras te acompaña en tu rutina diaria. Gracias a su diseño inteligente, puedes usarla como una almohada portátil perfecta para bibliotecas, cafeterías, coworkings o aeropuertos. Hecha con materiales suaves y resistentes que aseguran durabilidad sin sacrificar comodidad.</p>
+              <p class="fw-bold">Precio: $25.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm">
+            <img src="img/producto-dreamgo-pro.jpg" alt="DreamGo Pro" class="card-img-top img-fluid" style="aspect-ratio: 4/3; object-fit: cover;">
+            <div class="card-body">
+              <h4 class="card-title">DreamGo Pro</h4>
+              <p class="card-text">DreamGo Pro incorpora materiales de alta calidad, un acolchado ergonómico avanzado y costuras reforzadas. Está pensada para usuarios exigentes que buscan un producto elegante, cómodo y con posibilidad de personalización en colores y estampados. El aliado ideal para jornadas largas fuera de casa u oficina.</p>
+              <p class="fw-bold">Precio: $30.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="text-center mb-4">Comparativa de Características</h2>
+      <div class="table-responsive">
+        <table class="table table-bordered text-center align-middle">
+          <thead class="table-dark">
+            <tr>
+              <th>Característica</th>
+              <th>DreamGo</th>
+              <th>DreamGo Pro</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Convertible en almohada</td>
+              <td><i class="fas fa-check text-success"></i></td>
+              <td><i class="fas fa-check text-success"></i></td>
+            </tr>
+            <tr>
+              <td>Diseño ergonómico</td>
+              <td><i class="fas fa-check text-success"></i></td>
+              <td><i class="fas fa-check text-success"></i></td>
+            </tr>
+            <tr>
+              <td>Materiales premium</td>
+              <td><i class="fas fa-times text-danger"></i></td>
+              <td><i class="fas fa-check text-success"></i></td>
+            </tr>
+            <tr>
+              <td>Diseño personalizable</td>
+              <td><i class="fas fa-times text-danger"></i></td>
+              <td><i class="fas fa-check text-success"></i></td>
+            </tr>
+            <tr>
+              <td>Colores disponibles</td>
+              <td>3</td>
+              <td>+6</td>
+            </tr>
+            <tr>
+              <td>Peso aproximado</td>
+              <td>450 g</td>
+              <td>520 g</td>
+            </tr>
+            <tr>
+              <td>Dimensiones</td>
+              <td>38 x 28 cm</td>
+              <td>40 x 30 cm</td>
+            </tr>
+            <tr>
+              <td>Ideal para laptops de</td>
+              <td>13" a 15.6"</td>
+              <td>13" a 17"</td>
+            </tr>
+            <tr>
+              <td>Garantía</td>
+              <td>3 meses</td>
+              <td>6 meses</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 bg-white">
+    <div class="container" data-aos="fade-up">
+      <h2 class="text-center mb-5">¿Te interesa comprar?</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <form id="formularioCompra" class="shadow p-4 rounded bg-light">
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre completo</label>
+              <input type="text" class="form-control" id="nombre" required>
+            </div>
+            <div class="mb-3">
+              <label for="correo" class="form-label">Correo electrónico</label>
+              <input type="email" class="form-control" id="correo" required>
+            </div>
+            <div class="mb-3">
+              <label for="producto" class="form-label">Producto</label>
+              <select class="form-select" id="producto" required>
+                <option value="">Selecciona una opción</option>
+                <option value="DreamGo">DreamGo - $25</option>
+                <option value="DreamGo Pro">DreamGo Pro - $30</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="mensaje" class="form-label">Mensaje (opcional)</label>
+              <textarea class="form-control" id="mensaje" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar solicitud</button>
+          </form>
+          <div id="confirmacion" class="alert alert-success mt-4 d-none" role="alert">
+            ¡Gracias por tu interés! Nos pondremos en contacto pronto.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-white py-5" style="background-color:#2b3c3d">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h5>Sobre DreamGo</h5>
+          <p>Soluciones ergonómicas que combinan protección tecnológica y bienestar diario.</p>
+          <p>&copy; 2025 DreamGo. Todos los derechos reservados.</p>
+        </div>
+        <div class="col-md-6">
+          <h5>Redes Sociales</h5>
+          <p>Síguenos para promociones y novedades</p>
+          <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-lg"></i></a>
+          <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-lg"></i></a>
+          <a href="#" class="text-white me-3"><i class="fab fa-twitter fa-lg"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('formularioCompra').addEventListener('submit', function (e) {
+      e.preventDefault();
+      document.getElementById('confirmacion').classList.remove('d-none');
+      this.reset();
+      setTimeout(() => {
+        document.getElementById('confirmacion').classList.add('d-none');
+      }, 5000);
+    });
+  </script>
+</body>
+</html>
